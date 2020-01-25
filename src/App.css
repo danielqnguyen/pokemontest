@@ -29,7 +29,6 @@ li a:hover {
 }
 
 .box {
-  left: 0;
   line-height: 90px;
   margin-top: -100px;
   position: absolute;
@@ -53,9 +52,4 @@ img {
 
 div.box h3 {
   display: inline-block;
-  text-align: center;
-}
-
-.linkName {
-  margin: 0 auto;
 }

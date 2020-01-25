@@ -16,7 +16,6 @@ const App = () => {
       const response = await axios.get(
         `https://pokeapi.co/api/v2/pokemon/?limit=9`
       );
-
       setPokemonList(response.data.results);
     }
     allPokemon();
